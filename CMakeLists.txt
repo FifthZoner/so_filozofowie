@@ -7,4 +7,6 @@ add_executable(so_filozofowie main.cpp
         filozof.cpp
         filozof.hpp
         widelec.hpp
-        wyswietlanie.hpp)
+        wyswietlanie.hpp
+        widelec.cpp
+        wyswietlanie.cpp)

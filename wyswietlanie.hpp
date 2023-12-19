@@ -3,6 +3,6 @@
 
 #include "filozof.hpp"
 
-
+void wyswietlStan();
 
 #endif //SO_FILOZOFOWIE_WYSWIETLANIE_HPP
