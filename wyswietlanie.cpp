@@ -55,7 +55,7 @@ void wyswietlStan() {
 
     std::cout << "\n\n\n\n             " << filozofowie[3].imie << "                 " << filozofowie[2].imie << "\n";
 
-    std::cout << "        " << widelecPodniesiony(3, 3) << "  " << stan(3) << "  " << widelecPodniesiony(3, 2) << "       " <<
+    std::cout << "        " << widelecPodniesiony(3, 3) << "  " << stan(3) << "  " << widelecPodniesiony(2, 3) << "       " <<
     widelecPodniesiony(2, 2) << "  " << stan(2) << "  " << widelecPodniesiony(1, 2) << "\n";
 
     std::cout << "                             " << widelecLezacy(2) << "\n";
