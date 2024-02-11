@@ -50,6 +50,19 @@ Filozof::~Filozof() {
                 filozof->lewy->odloz();
                 break;
             }
+            else if (filozof->prawy->podnies(filozof)){
+                for (n = 0; n < 5; n++) {
+                    if (filozof->lewy->podnies(filozof)){
+                        filozof->stan = Filozof::je;
+                        czekaj(czasJedzenia);
+                        filozof->lewy->odloz();
+                        break;
+                    }
+                    czekaj(czasPomiedzy);
+                }
+                filozof->prawy->odloz();
+                break;
+            }
             czekaj(czasPomiedzy);
         }
     }
